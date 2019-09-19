@@ -1,0 +1,15 @@
+#!/bin/bash
+# Authors : Garrett West
+# Date: 1/1/2019
+
+#Problem 1 Code:
+#Make sure to document how you are solving each problem!
+echo "What is your name"
+read name
+grep <name><regex_practice.txt>
+#grep <[0123456789]><regex_practice.txt> -c
+grep <^303> -o
+grep <@> -c
+grep <@> <regex_practice.txt> >> email_results.txt
+git add email_results.txt
+git commit -m "Creating email_results.sh file and storing regex_practice.sh"
